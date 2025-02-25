@@ -1,92 +1,109 @@
 /* Fonts and colors */
+@import url('https://fonts.googleapis.com/css2?family=Melon&display=swap'); /* Importing Melon font */
+
 body{
   background: rgb(240,240,240);
-  color: rgb(30,30,30);
-  font-size: 18px;
-  font-family: Lato, sans-serif;
+  color: rgb(20,20,20); /* Darker text for better contrast */
+  font-size: 16px; /* Reduced text size for a sleeker look */
+  font-family: 'Melon', sans-serif; /* Updated font */
   margin: 0px;
   font-weight: lighter;
 }
+
 h1 {
   font-weight: bold;
+  color: white; /* Changed back to white */
 }
+
 h2 {
   font-weight: bold;
-  font-size: 24px;
-  color: #6A71E1;
+  font-size: 22px; /* Slightly smaller */
+  color: #D35400; /* Warm orange tone */
 }
+
 a {
-  color: #6A71E1;
+  color: #D35400; /* Matching link color */
   text-decoration: none;
 }
+
 a:hover {
-  color: black;
+  color: #A04000; /* Darker orange on hover */
 }
 
 /* Custom design with classes */
-.banner{
+.banner {
   text-align: center;
   color: white;
   padding: 150px 0px;
-  background-image: linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.4) 50%), url("https://i.pinimg.com/1200x/b0/2d/5e/b02d5e040b7187d2abeae21c1ac0e122.jpg");
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.4) 50%), 
+    url("https://i.pinimg.com/1200x/05/3f/c6/053fc60c5095b5665027fd9e0d43972f.jpg");
   background-size: cover;
   background-position: center;
 }
+
 .banner h1 {
-  font-size: 50px;
+  font-size: 48px; /* Slightly smaller */
 }
+
 .banner p {
   opacity: 0.8;
-  font-size: 30px;
+  font-size: 28px; /* Slightly smaller */
   font-weight: lighter;
   margin-bottom: 40px;
 }
 
+/* Button Styling */
 .btn-blue {
   color: white;
-  background: #6772e5;
+  background: #D35400; /* Matching button color */
   box-shadow: 0 4px 6px rgba(50,50,93,.11);
   border-radius: 4px;
-  padding: 15px 20px;
+  padding: 14px 18px; /* Slightly smaller */
 }
+
 .btn-blue:hover {
-  background: #7795f8;
+  background: #A04000;
   color: white;
 }
 
+/* Card Styling */
 .card-white {
   background-color: white;
   border-radius: 4px;
   text-align: center;
   box-shadow: 0 4px 6px rgba(50,50,93,.11);
-  padding: 16px;
-  margin: 16px 0px;
+  padding: 14px;
+  margin: 14px 0px;
 }
 
 .card-white img {
-  margin-bottom: 20px;
+  margin-bottom: 18px;
 }
 
+/* Footer */
 .footer {
   background-color: black;
   padding: 24px;
   color: white;
 }
+
 .footer a {
   color: white;
-  font-size: 32px;
+  font-size: 30px; /* Slightly smaller */
 }
 
+/* List Styling */
 .list-inline {
   list-style: none;
   padding-left: 0px;
 }
+
 .list-inline li {
   display: inline;
   padding: 0px 8px;
 }
 
-/* Adjustments with id */
+/* Section Adjustments */
 #features {
-  padding: 64px 0px;
+  padding: 60px 0px;
 }
